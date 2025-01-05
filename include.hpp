@@ -43,7 +43,7 @@ const float acceleration = 0.5;
 size_t score = 0;
 vector<pair<Sprite*, Sprite*>> pipes;
 
-size_t ticks = 0;
+unsigned long long ticks = 0;
 bool end_screen = 0;
 
 #include "src/events.hpp"
